@@ -12,5 +12,5 @@ template:
      image: quay.io/mavazque/reversewords:v0.0.3
      env:
      - name: RELEASE
-       value: "Preproduction release"
+       value: "Production release"
      - $patch: replace
